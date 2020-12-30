@@ -1,0 +1,23 @@
+ul.pagi {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+ul.pagi li {display: inline;}
+
+ul.pagi li a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+ul.pagi li a.acti {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+}
+
+ul.pagi li a:hover:not(.acti) {background-color: #ddd;}
